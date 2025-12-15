@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>New Order</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <body style="background:url('https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/409547294_122140563992023356_5470191123475445014_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE_st21hkb7YLfgLc3ctGoxmHebXLJcdimYd5tcslx2KdrFjm7qBu_gMltFJFPDZjkoUA7x47TP8jc92Lmy8lJt&_nc_ohc=iTUwjNPcnIUQ7kNvwGY8tTN&_nc_oc=Adl1LTRygpf3GDA8Elf9cJ6P3Kskr-q1Td8092fZXNZNjxvLVTXrP8Q6_EuYhHxeQDQ&_nc_zt=23&_nc_ht=scontent.fceb2-1.fna&_nc_gid=l7yPHF9tZnB_MhOLZ5vmbw&oh=00_Afm94padgJGn-l1BGHG_32UN5CgmumpwAMeBIasC-UFInQ&oe=6942DFDA') no-repeat center/cover; height:100vh; margin:0;"></body>
+
+
+
+<form action="php/save_order.php" method="POST">
+<label>Customer Name:</label>
+<input type="text" name="customer_name" required>
+
+
+<label>Contact Number:</label>
+<input type="text" name="contact_number" required>
+
+
+<label>Product Type:</label>
+<select name="product_type">
+<option>Lechon Pig</option>
+<option>Lechon Chicken</option>
+</select>
+
+
+<label>Size / Quantity:</label>
+<input type="text" name="size_or_quantity" required>
+
+
+<label>Delivery Date:</label>
+<input type="date" name="delivery_date" required>
+
+
+<label>Delivery Time:</label>
+<input type="time" name="delivery_time" required>
+
+
+<label>Delivery Address:</label>
+<textarea name="delivery_address" required></textarea>
+
+
+<button type="submit">Save Order</button>
+</form>
+</body>
+</html>

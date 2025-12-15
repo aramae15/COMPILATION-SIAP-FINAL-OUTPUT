@@ -1,0 +1,171 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f8f8f8;
+margin: 0;
+padding: 0;
+}
+
+
+header {
+background-color: #8b0000;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+
+main {
+padding: 40px;
+}
+
+
+.intro {
+background: white;
+padding: 30px;
+border-radius: 8px;
+text-align: center;
+}
+
+
+.btn {
+display: inline-block;
+padding: 12px 20px;
+background-color: #8b0000;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+}
+
+
+form {
+  background: rgba(255, 255, 255, 0.7); /* opacity here */
+  padding: 35px;
+  width: 400px;
+  margin: 60px auto;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+
+label {
+display: block;
+margin-top: 10px;
+}
+
+
+input, select, textarea {
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+}
+
+
+button {
+margin-top: 15px;
+padding: 10px;
+background-color: #8b0000;
+color: white;
+border: none;
+width: 100%;
+cursor: pointer;
+}
+
+
+footer {
+    text-align: center;   /* centers text horizontally */
+    padding: 20px;        /* adds space around the footer */
+    background-color: #f1f1f1; /* optional: gives a subtle background */
+    position: relative;   /* allows you to adjust if needed */
+    bottom: 0;
+    width: 100%;          /* makes footer span full width */
+    font-size: 14px;      /* optional: adjust text size */
+}
+
+
+/* Make body take full height */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main content grows to fill the space */
+main {
+    flex: 1;
+}
+
+/* Footer style */
+footer {
+    background: rgba(255, 255, 255, 0.6); /* opacity here */
+    text-align: center;
+    padding: 10px 0;
+}
+/* Make the section background fit full width */
+.intro {
+    background-color: white; /* white background */
+    width: 95vw; /* full viewport width */
+    
+    padding: 50px 40px; /* top/bottom 40px, sides 20px */
+    box-sizing: border-box; /* include padding in width */
+    text-align: center; /* center text */
+    margin: 5; /* remove default margins */
+}
+
+/* Optional: style inner content */
+.intro-content {
+    max-width: 800px; /* limit max width so it looks nice */
+    margin: 0 auto; /* center horizontally */
+}
+
+.intro-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro-content p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.intro-content button {
+    background-color: #8B0000; 
+    color: white;
+    border: none;
+    padding: 10px 18px;       
+    cursor: pointer;
+    font-size: 1rem;         
+    border-radius: 25px;      
+    transition: background 0.3s, transform 0.2s; 
+}
+
+.intro-content button:hover {
+    background-color: #a00000; 
+    transform: scale(1.05);    
+}
+
+
+.intro-content button:hover {
+    background-color: #a80000;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background: transparent; /* no fade */
+}
+
+
+.intro-content {
+  background: rgba(255, 255, 255, 0.5); /* opacity here */
+  padding: 40px 50px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  animation: fadeUp 0.8s ease;
+}
+
